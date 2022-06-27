@@ -14,6 +14,7 @@
 ```
 cf api <api endpoint>
 cf login
+cf create-service xsuaa application xsuaa-service-tutorial -c security/xs-security.json  //创建xuaa servervice
 cf push
 
 ```
@@ -22,4 +23,4 @@ cf push
 
 * [SAP Authorization and Trust Management 服务 教程](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/902ae800c1d04c7388e407b7815e5cc8.html)
 * [cp-cf-security-xsuaa](https://developers.sap.com/tutorials/cp-cf-security-xsuaa-create.html)
-* [SAP XUAA Pilot App](https://github.com/SAP-samples/teched2019-cloud-cf-product-list/tree/sap-tutorial-xsuaa)
+* [sap xuaa pilot app](https://github.com/SAP-samples/teched2019-cloud-cf-product-list/tree/sap-tutorial-xsuaa)
